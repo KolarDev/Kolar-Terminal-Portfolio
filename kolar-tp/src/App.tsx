@@ -3,7 +3,7 @@ import Intro from './components/Intro';
 
 export default function App() {
   return (
-    <div className="flex flex-col md:flex-row h-screen w-screen bg-black text-green-500 font-mono">
+    <div className="flex flex-col md:flex-row h-screen w-screen bg-black text-green-500 font-mono border-2 border-green-700 mt-8">
       <div className="w-full md:w-1/2 p-6 flex items-center justify-center border-r border-green-700">
         <Intro /> 
       </div>

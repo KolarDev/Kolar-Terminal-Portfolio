@@ -1,4 +1,3 @@
-
 import profile from '../assets/profile.jpg';
 
 export default function Intro() {
@@ -10,10 +9,13 @@ export default function Intro() {
         className="w-32 h-32 rounded-full border-2 border-green-500 mx-auto mb-4 shadow-lg hover:scale-105 transition-transform"
       />
       <h1 className="text-2xl md:text-3xl font-bold">Abdulbasit Muhyideen</h1>
-      <p className="mt-2 text-lg text-green-400">Backend Developer | Node.js | Express | MongoDB</p>
+      <p className="mt-2 text-lg text-green-400">Backend Developer | Node.js | Express | MongoDB | Postgres | React | Next.js</p>
       <p className="mt-4 max-w-sm mx-auto">
         Passionate about building reliable backend systems and APIs. Love solving problems and exploring tech.
       </p>
+      <button className='mt-4 p-2 rounded border-1'>See My Portfolio</button>
+      <p className='mt-2 '>OR</p> 
+      <p className='mt-2 center '>Use the terminal 👉👉</p>
     </div>
   );
 }
